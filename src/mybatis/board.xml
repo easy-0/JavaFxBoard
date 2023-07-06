@@ -17,6 +17,7 @@
 	
 	<!-- select쿼리 - resultMap을 TestResult로 설정하였으므로 -->
 	<!-- 최종적으로는 결과값이 BoardVO로 반환하게 됨 -->
+	
 	<select id="selectTest" parameterType="vo.BoardVO" resultMap="TestResult">
 		SELECT
 	    	board_id
